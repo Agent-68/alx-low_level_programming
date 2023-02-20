@@ -8,7 +8,7 @@
 int main(void)
 {
 	int n = '0';
-	int f = '0';
+	int f = 'a';
 
 	while (n <= '9') /*print to 9 */
 	{
@@ -16,7 +16,7 @@ int main(void)
 		n++;
 	}
 
-	while(f <= 'f') /*print to f */
+	while (f <= 'f') /*print to f */
 	{
 		putchar(f);
 		f++;
