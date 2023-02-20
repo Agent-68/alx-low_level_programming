@@ -10,13 +10,11 @@ int main(void)
 	int n = '0';
 	int f = 'a';
 
-
 	while (n <= '9') /*print to 9 */
 	{
 		putchar(n);
 		n++;
 	}
-
 
 	while (f <= 'f') /*print to f */
 	{
@@ -24,9 +22,7 @@ int main(void)
 		f++;
 	}
 
-
 	putchar('\n');
-
 
 	return (0);
 }
