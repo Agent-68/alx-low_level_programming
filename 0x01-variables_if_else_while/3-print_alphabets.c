@@ -19,7 +19,7 @@ int main(void)
 	while (upper <= 'z')/*print upper*/
 	{
 		putchar(upper);
-		upper++
+		upper++;
 	}
 
 	putchar('\n');
